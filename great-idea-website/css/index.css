@@ -71,13 +71,22 @@ p {
 	margin-bottom: 1%;
 }
 
+h1{
+	font-size: 250%;
+}
+
+nav{
+	margin-left: 25%;
+}
+
 nav a{
 	display: inline-block;
 	/* margin: 0 auto; */
 	text-align: center;
 	padding: 5px;
 	border: 2px solid green;
-	margin-left: 10%;
+	margin-left: 3%;
+	
 }
 
 nav img{
@@ -87,43 +96,71 @@ nav img{
 header{
 	border: 2px solid black;
 	display: inline-block;
-	padding: 1%;	
+	padding: 1%;
+	margin-left: 25%;	
 }
 
 header p {
 	border: 2px solid grey;
 	display: inline-block;
-	width: 50%;
+	width: 25%;
 }
 
-.tImage img{
+header img{
+	width: 60%;
 	display: inline-block;
 	text-align: center;
 	border: 5px solid purple;
-	margin-left: 50%;
-	padding: 20%;
+	margin-left: 10%;
+	padding: 2%;
 }
 
 .top-section{
 	padding: 1%;
 	margin: 2% auto;
+	margin-left: 25%;
+	width: 40%;
+	border-top: 2px solid black;
 }
+
+.top-section div {
+	width: 45%;
+	padding: 1%;
+	display: inline-block;
+	margin-left: 10px;
+} 
 
 .middle-img{
 	/* border:2px solid green; */
 	padding: 1%;
-	margin: 2% auto;
+	margin: 0 auto;
+	margin-left: 25%;
+	width: 40%;
 }
 
 .middle-section{
 	padding: 1%;
 	margin: 2% auto;
+	margin-left: 25%;
+	width: 40%;
+	border-bottom: 2px solid black;
 }
+
+.middle-section div {
+	width: 30%;
+	padding: 1%;
+	display: inline-block;
+	margin-left: 10px;
+} 
 
 .contact{
 	padding: 1%;
 	margin: 2% auto;
+	width: 50%;
+	margin-left: 25%;
 }
+
+
 
 footer{
 	padding: 1%;

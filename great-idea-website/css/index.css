@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 1% auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+p {
+	margin-bottom: 1%;
+}
+
+nav a{
+	display: inline-block;
+	/* margin: 0 auto; */
+	text-align: center;
+	padding: 5px;
+	border: 2px solid green;
+	margin-left: 10%;
+}
+
+nav img{
+	padding: 0 1%;
+}
+
+header{
+	border: 2px solid black;
+	display: inline-block;
+	padding: 1%;	
+}
+
+header p {
+	border: 2px solid grey;
+	display: inline-block;
+	width: 50%;
+}
+
+.tImage img{
+	display: inline-block;
+	text-align: center;
+	border: 5px solid purple;
+	margin-left: 50%;
+	padding: 20%;
+}
+
+.top-section{
+	padding: 1%;
+	margin: 2% auto;
+}
+
+.middle-img{
+	/* border:2px solid green; */
+	padding: 1%;
+	margin: 2% auto;
+}
+
+.middle-section{
+	padding: 1%;
+	margin: 2% auto;
+}
+
+.contact{
+	padding: 1%;
+	margin: 2% auto;
+}
+
+footer{
+	padding: 1%;
+	margin: 0 auto;
+	text-align: center;
+}
+
